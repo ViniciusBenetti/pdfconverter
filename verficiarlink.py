@@ -35,10 +35,10 @@ def obter_links_usuario(cur, user_id):
 
 
 conn = mysql.connector.connect(
-        host="192.185.213.40",
-        user="vinixo01_vini",
-        password="Benetti2021+",
-        database="vinixo01_checkurl"
+        host="seuhost",
+        user="seuusuario",
+        password="suasenha",
+        database="seudb"
     )
 
 
